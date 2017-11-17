@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<!-- Customize header  -->
+		<template id="jobrad_header" inherit_id="website.layout" name="JobRad Header">
+
+			<xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+				<attribute name="class">lr_navbar</attribute>
+			</xpath>
+
+			<!-- <xpath expr="//div[@id='wrapwrap']/header" position="replace">
+				<header>
+					<div class="navbar navbar-default">
+						<div class="container">
+							<div class="navbar-header">
+								<button type="button"
+									class="lr_menu-button navbar-toggle lr_menu-closed offcanvas-toggle"
+									data-toggle="offcanvas"
+									data-target="#lr_navbar">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar top-bar"></span>
+									<span class="icon-bar middle-bar"></span>
+									<span class="icon-bar bottom-bar"></span>
+								</button>
+								<a class="navbar-brand"
+									href="/"
+									t-if="website"
+									t-field="website.name">My
+									Website
+								</a>
+							</div>
+							<div id="lr_navbar" class="navbar-offcanvas navbar-offcanvas-touch">
+								<ul class="nav navbar-nav navbar-right lr_nav" id="top_menu">
+									<t t-foreach="website.menu_id.child_id" t-as="submenu">
+										<t t-call="website.submenu"/>
+									</t>
+									<li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+									<li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<b>
+												<span t-esc="(len(user_id.partner_id.name)&gt;25) and (user_id.partner_id.name[:23]+'...') or user_id.partner_id.name"/>
+												<span class="lr_caret fa fa-angle-down"></span>
+											</b>
+										</a>
+										<ul class="lr_maindropdown dropdown-menu js_usermenu" role="menu">
+											<li class="dropdown">
+												<a t-attf-href="/web/session/logout?redirect=/" role="menuitem">
+													Logout
+												</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</header>
+			</xpath> -->
+
+		</template>
+	</data>
+</odoo>

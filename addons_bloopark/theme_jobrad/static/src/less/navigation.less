@@ -1,3 +1,27 @@
-body {
-	color: red;
+// Navbar Variables //
+@navbar-bg: #4c8b2b;
+@navbar-active: #50942d;
+
+.lr_navbar {
+	
+	.navbar {
+		height: 8.2rem;
+
+		li {
+			height: 82px;
+			border-left: 1px solid transparent;
+
+			a {
+				padding: 4.2rem 1.5rem 1.5rem;
+			}
+		}
+	}
+
+	a.navbar-brand.logo img {
+		height: 6.5rem;
+	}
+
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		background-color: @navbar-active;
+	}
 }
