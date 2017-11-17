@@ -1,0 +1,120 @@
+<odoo>
+	<data>
+		<template id="footer_custom2" inherit_id="website.footer_custom" name="Footer">
+			<xpath expr="//div[@id='footer']" position="replace">
+				<div class="footer oe_structure" id="footer">
+					<section>
+						<div class="container">
+							<div class="col-md-9">
+								<div class="row">
+									<div class="col-md-3">
+										<h4 class="mt16">Über uns</h4>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+									</div>
+									<div class="col-md-3">
+										<h4 class="mt16">Quick Links</h4>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+									</div>
+									<div class="col-md-3">
+										<h4 class="mt16">Fachhändler</h4>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+									</div>
+									<div class="col-md-3">
+										<h4 class="mt16">Rechtliches</h4>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+										<p>
+											<a href="/">Homepage</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<h4 class="mt16">Rechtliches</h4>
+									<p>
+										<h2>
+                        <a t-att-href="website.social_facebook" t-if="website.social_facebook"><i class="fa fa-facebook-square"/></a>
+                        <a t-att-href="website.social_twitter" t-if="website.social_twitter"><i class="fa fa-twitter"/></a>
+                        <a t-att-href="website.social_linkedin" t-if="website.social_linkedin"><i class="fa fa-linkedin"/></a>
+                        <a t-att-href="website.social_youtube" t-if="website.social_youtube"><i class="fa fa-youtube-play"/></a>
+                        <a t-att-href="website.social_googleplus" t-if="website.social_googleplus" rel="publisher"><i class="fa fa-google-plus-square"/></a>
+                        <a t-att-href="website.social_github" t-if="website.social_github"><i class="fa fa-github"/></a>
+                    </h2>
+									</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</xpath>
+		</template>
+
+<!-- 			<template id="footer_custom3" inherit_id="website.layout_footer_copyright" name="Footer">
+			<xpath expr="//div[@id='footer']" position="replace">
+				<div>
+					
+				</div>
+			</xpath>
+		</template> -->
+	</data>
+</odoo>

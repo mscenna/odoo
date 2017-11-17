@@ -10,6 +10,7 @@
     'depends': ['website'],
     'data': [
         'views/assets.xml',
+        'views/footer.xml',
     ],
     'images': [
         'static/description/cover.png',

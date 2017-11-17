@@ -6,6 +6,7 @@
 			<xpath expr="link[last()]" position="after">
 				<link rel="stylesheet" type="text/less" href='/theme_jobrad/static/src/less/variables.less'/>
 				<link rel="stylesheet" type="text/less" href='/theme_jobrad/static/src/less/navigation.less'/>
+				<link rel="stylesheet" type="text/less" href='/theme_jobrad/static/src/less/footer.less'/>
 			</xpath>
 		</template>
 	</data>
