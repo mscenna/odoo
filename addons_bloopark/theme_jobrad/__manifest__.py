@@ -4,12 +4,12 @@
 {
     'name': 'JobRad Theme',
     'description': 'JobRad theme to showcase the company\'s main features.',
-    'category': 'Theme/Hidden',
-    'sequence': 1000,
+    'category': 'Theme',
+    'sequence': 900,
     'version': '1.0',
     'depends': ['website'],
     'data': [
-        'views/theme_jobrad_templates.xml',
+        'views/assets.xml',
     ],
     'images': [
         'static/description/cover.png',
