@@ -9,7 +9,7 @@
     'version': '1.0',
     'depends': ['website'],
     'data': [
-        '',
+        'views/theme_jobrad_templates.xml',
     ],
     'images': [
         'static/description/cover.png',
